@@ -59,8 +59,6 @@ const ItemCtrl = (function(){
 
 })();
 
-
-
 //================UI CONTROLLER==================
 const UICtrl = (function(){
     
@@ -96,9 +94,6 @@ const UICtrl = (function(){
 })();
 
 
-
-
-
 //==============APP CONTROLLER=================
 const AppCtrl = (function(ItemCtrl, UICtrl){
     //Get UI selectors
@@ -128,12 +123,7 @@ const AppCtrl = (function(ItemCtrl, UICtrl){
             })
             .catch(err => console.log(err));
     }
-    
-    
-    
-    
-    
-    
+
     //Public Methods
     return {
         init: () => {
