@@ -1,0 +1,16 @@
+
+
+body {
+    background-size: cover;
+    font-family: Georgia;
+}
+
+
+.letterBox {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    margin-right: 5px;
+    border-bottom: 2px solid black;
+}
