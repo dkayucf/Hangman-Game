@@ -1,9 +1,13 @@
 
 
+/*
 body {
+    height: 100vh;
+    background: linear-gradient(to top left, #ff6666 14%, #ffffcc 88%);
     background-size: cover;
     font-family: Georgia;
 }
+*/
 
 
 .letterBox {
@@ -13,4 +17,45 @@ body {
     padding: 3px;
     margin-right: 5px;
     border-bottom: 2px solid black;
+}
+
+.letterKeys {
+    background-color: #1976D2;
+    cursor: pointer;
+    color: white;
+    box-shadow: 1px 1px 12px 1px #00000061;
+}
+
+canvas#hangMan {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 35px;
+    margin-bottom: 20px;
+    background-color: #FAFAFA;
+}
+
+.card-header{
+    background-color: #2196F3;
+    color: white;
+}
+
+.card-body{
+    background-color: #E3F2FD;
+}
+
+.card-footer{
+    background-color: #90CAF9;
+}
+
+.card.text-center.mt-5 {
+    box-shadow: 1px 1px 11px 3px #0d47a126;
+    border: 1px solid #0d47a126;
+}
+
+.text-blue{
+    color: #1976D2;
+}
+
+.guessesRemaining{
+    color: #0D47A1;
 }
